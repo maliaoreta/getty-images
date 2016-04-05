@@ -1,5 +1,39 @@
-$white: floralwhite;
+@import "partials/reset";
 
-body {
-  background-color: $white;
+#headerContainer {
+
+  height: 5em;
+  padding: 0.5em;
+  background-color: pink;
+}
+
+#contentContainer {
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.imageDivs {
+
+  flex: 1 1 40%;
+  text-align: center;
+  margin-top: 0.5em;
+  background-color: lightsteelblue;
+}
+
+.imageDivs:nth-child(even) {
+
+  margin-left: 0.5em;
+}
+
+#image {
+
+  height: 15em;
+  margin: 0.5em;
+}
+
+#imgCap {
+
+  margin: 0.5em;
+  margin-top: 0;
 }
